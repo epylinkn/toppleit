@@ -1,0 +1,135 @@
+/* materialize overrides */
+.input-field.col label {
+  left: 0;
+}
+
+/* end */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  height: 300px;
+  background-color: black;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+.card.selected {
+  border: 5px solid hotpink;
+}
+.correct .card.selected {
+  border: 5px solid lime;
+}
+.wrong .card.selected {
+  border: 5px solid crimson
+}
+
+
+.card-1 {
+  padding-top: 100px;
+}
+.card-2 {
+  padding-top: 70px;
+}
+.card-3 {
+  padding-top: 40px;
+}
+
+.card i {
+  display: block;
+}
+
+.card-cyan {
+  color: cyan;
+}
+.card-magenta {
+  color: magenta;
+}
+.card-yellow {
+  color: yellow;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.tools {
+  display: inline-block;
+  vertical-align: top;
+}
+.tools-add-card {
+  padding: 25px 30px 0 30px;
+  line-height: 100%;
+  vertical-align: middle;
+}
+.tools-wrong-sets {
+  font-size: 72px;
+  color: crimson;
+}
+.tools-correct-sets {
+  font-size: 72px;
+  color: lime;
+}
+
+.login {
+  text-align: center;
+}
+
+/* footer */
+.copyright {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.copyright a {
+  color: white !important;
+}
